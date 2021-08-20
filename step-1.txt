@@ -1,0 +1,11 @@
+Step 1: Alternative Tools Research¶
+
+Tool one: Jenkins.io
+    2: Jenkins will integrate with a LOT of different tools and services due to its vast amount of plugins.
+    3: Jenkins is easy to use, integrates with lots of other softwares and services. It's complex, but that complexity is what will streamline our process down the road.
+    4: Started in 2004, jenkins ha become a very popular ci service, but comes with controversy. Because of it's high customizability, it has a steep learning curve with complexity that not many users have patience for.
+
+Tool Two: BuildMaster (Indeo)
+    2: Buildmaster is a full CI/CD service that starts out free, and price goes up as one scales. It allows you to perform builds, tests, release, and deploy all from its own service.
+    3: Buildmaster is easy to use, learn, and integrate into your current systems, including databases, app stores, and hosting services. We can use it imeediately!
+    4: Buildmaster was started in 2018, and has a decent following for being so new. It is a basic ci/cd tool witha few neat features, such as being able to deploy to app stores or integrate databases.

@@ -1,0 +1,23 @@
+Results for the extraLargeArray
+insert 1.0587704 s
+append 4.1272 ms
+
+Results for the largeArray
+insert 11.0534 ms
+append 702.2 μs
+
+Results for the mediumArray
+insert 313.7 μs
+append 114.4 μs
+
+Results for the smallArray
+insert 176.8 μs
+append 54.5 μs
+
+Results for the tinyArray
+insert 126.8 μs
+append 45.1 μs
+
+The pattern is that it gets exponentially larger for the insert function as the array it is working on increases in size. With the append, it will increase in size, but more in a linear fashion.
+
+The append is so much faster becuase it is pushing data to the very end of the array, performing one operation to do so. The unshift method is having to literally take the array, create a new spot at the end, and then shift all the items in the array sideways one at a time to make room for the new data to be put at the front of the array.
